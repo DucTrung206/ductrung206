@@ -2,7 +2,7 @@
 ## Giới thiệu dự án 
 Tên dự án: Nhận diện hình ảnh qua chuyển động và trạng thái tay
 
-- Dự án này ứng dụng công nghệ nhận diện hình ảnh của OpenCV và MediaPipe Hands để theo dõi chuyển động và trạng thái của các ngón tay. Thay vì sử dụng những khung hình chữ nhật nhàm chán, hệ thống có khả năng tính toán toán học để tự động tạo ra các hình khối đa giác linh hoạt bao quanh các ngón tay của bạn.
+- Dự án này ứng dụng công nghệ nhận diện hình ảnh của OpenCV và MediaPipe Hands để theo dõi chuyển động và trạng thái của các ngón tay. Thay vì sử dụng những khung hình chữ nhật, hệ thống có khả năng tính toán toán học để tự động tạo ra các hình khối đa giác linh hoạt bao quanh các ngón tay của bạn.
 - Sau khi người dùng chốt khung hình bằng cách giữ yên tay, ứng dụng sẽ thực hiện kỹ thuật cắt lớp ảnh (Masking & Alpha Blending) để đóng băng vạn vật xung quanh, chỉ để lại một "cánh cửa" video chuyển động trực tiếp bên trong lòng bàn tay bạn.
 ## Thuật toán, thư viện sử dụng trong dự án
 - Ngôn ngữ chính : Pyhon
